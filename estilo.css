@@ -14,12 +14,15 @@ h1{
     margin:0;
     padding: 0;
 }
-.principal{
-    background-image:url(colegio_benjamin.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
+
 .container{
     height: 100vh;
+}
+.container_botao{
+    background-color: var(--cor-do-botao);
+    border-radius: 5px;
+    padding: 1em;
+    color:var(--cor-do-texto);
+    display: block;
 }
 
